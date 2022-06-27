@@ -1,0 +1,44 @@
+.header{
+    padding: 0 1rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: normal;
+  }
+  
+
+  .header .logo a{
+    text-decoration: none;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight:bolder;
+    font-size:xx-large;
+    color: rgb(95, 95, 95);
+  }
+  .header li a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    background: transparent;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+    padding: 5px;
+  }
+  .header li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  .header li a:hover{
+    background: rgb(235, 235, 235);
+    border-radius: 10px;
+    color: black;
+  }
+  
+  .header li a:active{
+    color: black;
+  }
