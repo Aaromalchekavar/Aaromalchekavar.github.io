@@ -7,7 +7,7 @@ const skill = [
     { type: "Javascript", level: 70 },
     { type: "NodeJS", level: 80 },
     { type: "MongoDB", level: 70 },
-    { type: "Python", level: 80 },
+    { type: "Python", level: 85 },
     { type: "C/CPP", level: 75 },
     { type: "Java", level: 60 },
     { type: "Flutter", level: 70 },
@@ -18,10 +18,10 @@ const skill = [
     { type: "Confidence", level: 100 }
 ];
 const colors = {
-    bar: "#808080",
+    bar: "#FFD580",
     title: {
-        text: "#fff",
-        background: "#808080"
+        text: "#000000",
+        background: "#D3D3D3"
     }
 };
 
